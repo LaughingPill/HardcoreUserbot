@@ -56,7 +56,7 @@ async def endgmute(event):
     except Exception as e:
         await event.edit("Error occured!\nError is " + str(e))
     else:
-        await event.edit("Successfully ungmuted that person")
+        await event.edit("Nibba UnGmuted!")
 
 @command(outgoing=True, pattern=r"^.gmute ?(\d+)?", allow_sudo=True)
 async def startgmute(event):
@@ -79,13 +79,13 @@ async def startgmute(event):
     chat_id = event.chat_id
     chat = await event.get_chat()
     if is_muted(userid, "gmute"):
-        return await event.edit("This user is already gmuted")
+        return await event.edit("Nibba already gmuted")
     try:
         mute(userid, "gmute")
     except Exception as e:
         await event.edit("Error occured!\nError is " + str(e))
     else:
-        await event.edit("Successfully gmuted that person")
+        await event.edit("Successfully gmuted that Nibba")
 
 @command(outgoing=True, pattern=r"^.ungmute ?(\d+)?", allow_sudo=True)
 async def endgmute(event):
@@ -113,7 +113,7 @@ async def endgmute(event):
     except Exception as e:
         await event.edit("Error occured!\nError is " + str(e))
     else:
-        await event.edit("Successfully ungmuted that person")
+        await event.edit("Successfully ungmuted that Nibba")
 
 @command(incoming=True)
 async def watcher(event):
