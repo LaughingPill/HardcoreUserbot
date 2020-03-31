@@ -15,5 +15,5 @@ async def amireallyalive(alive):
                      "**Telethon version:- 6.9.0**\n◆ ▬▬▬▬▬▬ ❴✪❵ ▬▬▬▬▬▬ ◆\n**Python: 3.7.3**\n◆ ▬▬▬▬▬▬ ❴✪❵ ▬▬▬▬▬▬ ◆\n"
                      "**When the devil walks the Earth and meets his first love,the evil shall be released ミ●﹏☉ミ\n◆ ▬▬▬▬▬▬ ❴✪❵ ▬▬▬▬▬▬ ◆\n**"
                      "**Database Status: Databases functioning normally!**\n◆ ▬▬▬▬▬▬ ❴✪❵ ▬▬▬▬▬▬ ◆\nAlways with you, my peru master!\n`"
-                     f"`My Demonic Owner`: {DEFAULTUSER}\n"
+                     f"`My Demonic Owner`: {DEFAULTUSER}\n")
                      
